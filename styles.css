@@ -1,0 +1,232 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */ 
+
+header {
+    background-color: white;
+    color: black;
+    display: inline-flex;
+    width: 100%;
+    height: 52px;
+    justify-content: center; /* Center horizontally (main axis) */
+    align-items: center;     /* Center vertically (cross axis) */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+    color: black;
+}
+
+nav ul li a {
+    color:black;
+    font-weight: 500;
+}
+
+header a {
+    margin-right: auto;
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: "Sans-serif typeface";
+    font-weight: 700;
+}
+
+.image {
+    height: 24px;
+    width: 140px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+/* Item Repeat */
+.item {
+    background-size: cover;
+    background-position: center;
+    top: 88px;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    height: 1000px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.model, h1, h4, h6 {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.model {
+    width: 100%;
+}   
+
+.new {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    height: 1000px;
+}
+
+.text {  
+    width: 100%;
+}
+
+#adjust {
+    margin-top: 110px;
+}
+
+#buttony2 {
+    width: 100%;
+    margin-bottom: 85px;
+}
+
+#white {
+    color: white;
+}
+
+
+/* Model Y */
+
+.Y {
+    background-image: url("./images/Homepage-Model-Y-Desktop-NA-v3.avif");
+    align-items: flex-start; /* Align to the top (start of cross axis) */
+}
+
+/* Model Y2 */
+
+.Y2 {
+    background-image: url("./images/Homepage-Model-Y-2-Desktop-NA.avif");
+}
+
+/* Cyber */
+
+.cyber {
+    background-image: url("./images/Homepage-Cybertruck-Desktop-v3.avif");
+}
+
+
+/* 3 */
+
+.three {
+    background-image: url("./images/Homepage-Model-3-Desktop-US.avif");
+}
+
+/* x */
+
+.x {
+    background-image: url("./images/Homepage-Model-X-Desktop-US.avif");
+
+}
+
+/* s */
+
+.s {
+    background-image: url("./images/Homepage-Model-S-Desktop-US.avif");
+}
+
+/* s */
+
+.solar {
+    background-image: url("./images/Homepage-SolarPanels-01-Desktop.avif");
+}
+
+/* roof */
+
+.roof {
+    background-image: url("./images/Homepage-SolarRoof-Desktop-US.avif");
+}
+
+/* power */
+
+.power {
+    background-image: url("./images/Homepage-Powerwall-Desktop-US.avif");
+}
+
+
+/* accessories */
+
+.accessories {
+    background-image: url("./images/Homepage-Accessories-Desktop-US.avif");
+}
+/* Order Now Button */
+
+.order {
+    background-color: #3E6AE1;
+    border-radius: 5px;
+    width: 252px;
+    height: 40px;
+    padding: 4px 24px;
+    border: 2.66667px solid #3E6AE1;
+    color: white;
+    font-weight: 550px;
+    font-size: 18px;
+}
+
+.order:hover {
+    cursor: pointer;
+    background-color: #3459bd;
+    border: 2.66667px solid #3459bd;
+}
+
+.order:active {
+    background-color: #2d4ca3;
+    border: 2.66667px solid #2d4ca3;
+}
+
+
+/* Learn More Button */
+
+
+.learn {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    width: 252px;
+    height: 40px;
+    padding: 4px 24px;
+    border: 2.66667px solid hsl(0, 0%, 100%);
+    color: black;
+    font-weight: 550px;
+    font-size: 18px;
+}
+
+.learn:hover {
+    cursor: pointer;
+    background-color: hsl(0, 4%, 85%);
+    border: 2.66667px solid hsl(0, 4%, 85%);
+}
+
+.learn:active {
+    background-color: hsl(0, 1%, 73%);
+    border: 2.66667px solid hsl(0, 1%, 73%);
+}
+
+/* Footer */
+.foot {
+    width: 100%;
+    height: 52px;
+    font-weight: 450;
+}
+
+.foot a {
+    text-decoration: none;
+    color: black;
+}
+
